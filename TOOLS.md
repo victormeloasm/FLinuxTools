@@ -1,12 +1,13 @@
-# FLinuxTools — Project catalog
+# FLinuxTools — Full project catalog
 
-The projects below are organized as Git submodules. **The source repositories remain owned by victormeloasm** and keep their own histories. Classification comes from an automated heuristic scan, not a manual audit of every project.
+**Inclusion rule:** any repository owned by `victormeloasm` whose name contains `frog` (case-insensitive) belongs in this collection, even if its purpose is not a Linux utility. The `randomtoad` project is included as well.
 
-## Detected Linux tools (17)
+All links below are Git submodules. Original repositories remain independent and retain their own histories.
 
-| Project | Submodule |
-| --- | --- |
-| [nntp](https://github.com/victormeloasm/nntp) | [nntp/](./nntp) |
+## All Frog-named repositories (23)
+
+| Original repository | In FLinuxTools |
+|---|---|
 | [TorFrog](https://github.com/victormeloasm/TorFrog) | [TorFrog/](./TorFrog) |
 | [frogurl](https://github.com/victormeloasm/frogurl) | [frogurl/](./frogurl) |
 | [frogkill](https://github.com/victormeloasm/frogkill) | [frogkill/](./frogkill) |
@@ -17,32 +18,42 @@ The projects below are organized as Git submodules. **The source repositories re
 | [cryptofrog](https://github.com/victormeloasm/cryptofrog) | [cryptofrog/](./cryptofrog) |
 | [frogx](https://github.com/victormeloasm/frogx) | [frogx/](./frogx) |
 | [HippoFrog](https://github.com/victormeloasm/HippoFrog) | [HippoFrog/](./HippoFrog) |
-| [whotf](https://github.com/victormeloasm/whotf) | [whotf/](./whotf) |
-| [eXpurg](https://github.com/victormeloasm/eXpurg) | [eXpurg/](./eXpurg) |
 | [FrogKillCMOS](https://github.com/victormeloasm/FrogKillCMOS) | [FrogKillCMOS/](./FrogKillCMOS) |
-| [VLC0dayanalyis](https://github.com/victormeloasm/VLC0dayanalyis) | [VLC0dayanalyis/](./VLC0dayanalyis) |
-| [AESCrypt](https://github.com/victormeloasm/AESCrypt) | [AESCrypt/](./AESCrypt) |
-| [eXtremeEntropyRandomGenerator](https://github.com/victormeloasm/eXtremeEntropyRandomGenerator) | [eXtremeEntropyRandomGenerator/](./eXtremeEntropyRandomGenerator) |
-
-## Additional projects to review (24)
-
-These projects were included from the scanner's `REVIEW` category. Some are cryptographic research, programming exercises, browser extensions, or other projects that may not be Linux utilities.
-
-| Project | Submodule |
-| --- | --- |
 | [defrogwipe](https://github.com/victormeloasm/defrogwipe) | [defrogwipe/](./defrogwipe) |
 | [FrogBard](https://github.com/victormeloasm/FrogBard) | [FrogBard/](./FrogBard) |
-| [randomtoad](https://github.com/victormeloasm/randomtoad) | [randomtoad/](./randomtoad) |
 | [kyfrog](https://github.com/victormeloasm/kyfrog) | [kyfrog/](./kyfrog) |
 | [frog51](https://github.com/victormeloasm/frog51) | [frog51/](./frog51) |
 | [frogdb](https://github.com/victormeloasm/frogdb) | [frogdb/](./frogdb) |
 | [FrogECCHunter](https://github.com/victormeloasm/FrogECCHunter) | [FrogECCHunter/](./FrogECCHunter) |
+| [symfrog512](https://github.com/victormeloasm/symfrog512) | [symfrog512/](./symfrog512) |
+| [frogglass](https://github.com/victormeloasm/frogglass) | [frogglass/](./frogglass) |
+| [froglock](https://github.com/victormeloasm/froglock) | [froglock/](./froglock) |
+| [frogpack](https://github.com/victormeloasm/frogpack) | [frogpack/](./frogpack) |
+| [frogpaste](https://github.com/victormeloasm/frogpaste) | [frogpaste/](./frogpaste) |
+| [HyperFrog](https://github.com/victormeloasm/HyperFrog) | [HyperFrog/](./HyperFrog) |
+
+## Toad-named repositories (1)
+
+| Original repository | In FLinuxTools |
+|---|---|
+| [randomtoad](https://github.com/victormeloasm/randomtoad) | [randomtoad/](./randomtoad) |
+
+## Other utilities and research projects (17)
+
+These were selected by the original automatic Linux-tool scanner. Some are tools or educational/research projects rather than Linux utilities, so this section is not a guarantee of compatibility.
+
+| Original repository | In FLinuxTools |
+|---|---|
+| [nntp](https://github.com/victormeloasm/nntp) | [nntp/](./nntp) |
+| [whotf](https://github.com/victormeloasm/whotf) | [whotf/](./whotf) |
+| [eXpurg](https://github.com/victormeloasm/eXpurg) | [eXpurg/](./eXpurg) |
+| [VLC0dayanalyis](https://github.com/victormeloasm/VLC0dayanalyis) | [VLC0dayanalyis/](./VLC0dayanalyis) |
+| [AESCrypt](https://github.com/victormeloasm/AESCrypt) | [AESCrypt/](./AESCrypt) |
+| [eXtremeEntropyRandomGenerator](https://github.com/victormeloasm/eXtremeEntropyRandomGenerator) | [eXtremeEntropyRandomGenerator/](./eXtremeEntropyRandomGenerator) |
 | [SynthIDKiller](https://github.com/victormeloasm/SynthIDKiller) | [SynthIDKiller/](./SynthIDKiller) |
 | [caesar](https://github.com/victormeloasm/caesar) | [caesar/](./caesar) |
 | [DartMonteCarlo](https://github.com/victormeloasm/DartMonteCarlo) | [DartMonteCarlo/](./DartMonteCarlo) |
 | [PySpeedTest](https://github.com/victormeloasm/PySpeedTest) | [PySpeedTest/](./PySpeedTest) |
-| [symfrog512](https://github.com/victormeloasm/symfrog512) | [symfrog512/](./symfrog512) |
-| [frogglass](https://github.com/victormeloasm/frogglass) | [frogglass/](./frogglass) |
 | [CubeSumFinder](https://github.com/victormeloasm/CubeSumFinder) | [CubeSumFinder/](./CubeSumFinder) |
 | [bend-hashes](https://github.com/victormeloasm/bend-hashes) | [bend-hashes/](./bend-hashes) |
 | [RomansToDecimal](https://github.com/victormeloasm/RomansToDecimal) | [RomansToDecimal/](./RomansToDecimal) |
@@ -50,15 +61,11 @@ These projects were included from the scanner's `REVIEW` category. Some are cryp
 | [2Dwaveequation](https://github.com/victormeloasm/2Dwaveequation) | [2Dwaveequation/](./2Dwaveequation) |
 | [CircularPrimes-1.2](https://github.com/victormeloasm/CircularPrimes-1.2) | [CircularPrimes-1.2/](./CircularPrimes-1.2) |
 | [pwnsplay](https://github.com/victormeloasm/pwnsplay) | [pwnsplay/](./pwnsplay) |
-| [froglock](https://github.com/victormeloasm/froglock) | [froglock/](./froglock) |
-| [frogpack](https://github.com/victormeloasm/frogpack) | [frogpack/](./frogpack) |
-| [frogpaste](https://github.com/victormeloasm/frogpaste) | [frogpaste/](./frogpaste) |
-| [HyperFrog](https://github.com/victormeloasm/HyperFrog) | [HyperFrog/](./HyperFrog) |
 
-## Using the collection
+## Clone the collection
 
 ```bash
 git clone --recurse-submodules https://github.com/victormeloasm/FLinuxTools.git
 ```
 
-You can also browse or clone any source repository independently. The paths above are Gitlinks, not copies of the repositories.
+To clone only an individual tool, use its original repository URL.

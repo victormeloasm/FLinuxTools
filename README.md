@@ -1,33 +1,64 @@
-# FLinuxTools
+# FLinuxTools 🐸
 
-A central hub for independent tools and projects maintained by [victormeloasm](https://github.com/victormeloasm).
+A single entry point for projects created and maintained by [victormeloasm](https://github.com/victormeloasm).
 
-This repository groups **41 original repositories as Git submodules**, preserving their original URLs, commit histories, issues, and releases. Each submodule points to a specific commit of its source repository.
+**Every repository with `frog` in its name is included**, regardless of category or language. All **23 Frog repositories**, **1 Toad repository**, and **17 additional projects** are linked here — **41 Git submodules** in total.
 
-- **17 detected Linux tools:** see [TOOLS.md](TOOLS.md#detected-linux-tools-17).
-- **24 additional candidates:** see [TOOLS.md](TOOLS.md#additional-projects-to-review-24). These were flagged for manual review and are not all guaranteed to be Linux utilities.
+> This is a collection, not a merged codebase. Each original repository keeps its own commits, ownership, releases, issues, and licenses. Submodules point to specific revisions; some projects are research or cross-platform applications rather than Linux-specific utilities.
 
-## Clone the complete collection
+## 🐸 Frog projects (23)
+
+- [TorFrog](./TorFrog)
+- [frogurl](./frogurl)
+- [frogkill](./frogkill)
+- [frogpwd](./frogpwd)
+- [frogclean](./frogclean)
+- [OpenFrogget](./OpenFrogget)
+- [ffrog](./ffrog)
+- [cryptofrog](./cryptofrog)
+- [frogx](./frogx)
+- [HippoFrog](./HippoFrog)
+- [FrogKillCMOS](./FrogKillCMOS)
+- [defrogwipe](./defrogwipe)
+- [FrogBard](./FrogBard)
+- [kyfrog](./kyfrog)
+- [frog51](./frog51)
+- [frogdb](./frogdb)
+- [FrogECCHunter](./FrogECCHunter)
+- [symfrog512](./symfrog512)
+- [frogglass](./frogglass)
+- [froglock](./froglock)
+- [frogpack](./frogpack)
+- [frogpaste](./frogpaste)
+- [HyperFrog](./HyperFrog)
+
+## 🐸 Toad project (1)
+
+- [randomtoad](./randomtoad)
+
+## Other projects (17)
+
+See the full [project catalog](TOOLS.md#other-utilities-and-research-projects-17) for additional utilities and research repositories.
+
+## Clone with all repositories
 
 ```bash
 git clone --recurse-submodules https://github.com/victormeloasm/FLinuxTools.git
 ```
 
-For an existing clone:
+If you cloned without submodules:
 
 ```bash
 git submodule update --init --recursive
 ```
 
-## Updating references
-
-The projects remain independent. When a source project gets new commits, this repository's tracked submodule commit does not automatically change. To update references deliberately:
+To update submodule pointers intentionally (does not rewrite original repositories):
 
 ```bash
 git submodule update --remote
-git add .gitmodules .
+git add .
 git commit -m "Update submodule references"
 git push
 ```
 
-See [TOOLS.md](TOOLS.md) for the full project index. Project-specific licensing and documentation are maintained within each source repository.
+See [TOOLS.md](TOOLS.md) for all **41 repositories**. Original projects have their own documentation and licensing.
