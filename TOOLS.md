@@ -1,13 +1,13 @@
-# FLinuxTools — Full project catalog
+# FLinuxTools — Project catalog
 
-**Inclusion rule:** any repository owned by `victormeloasm` whose name contains `frog` (case-insensitive) belongs in this collection, even if its purpose is not a Linux utility. The `randomtoad` project is included as well.
+This collection currently contains **37 Git submodules**, grouped by name, with 4 owner-requested exclusions from the previous catalog. The original repositories have not been deleted or moved.
 
-All links below are Git submodules. Original repositories remain independent and retain their own histories.
+## Frog-named repositories (22)
 
-## All Frog-named repositories (23)
+FrogKillCMOS is intentionally excluded at the owner's request.
 
-| Original repository | In FLinuxTools |
-|---|---|
+| Repository | Submodule |
+| --- | --- |
 | [TorFrog](https://github.com/victormeloasm/TorFrog) | [TorFrog/](./TorFrog) |
 | [frogurl](https://github.com/victormeloasm/frogurl) | [frogurl/](./frogurl) |
 | [frogkill](https://github.com/victormeloasm/frogkill) | [frogkill/](./frogkill) |
@@ -18,7 +18,6 @@ All links below are Git submodules. Original repositories remain independent and
 | [cryptofrog](https://github.com/victormeloasm/cryptofrog) | [cryptofrog/](./cryptofrog) |
 | [frogx](https://github.com/victormeloasm/frogx) | [frogx/](./frogx) |
 | [HippoFrog](https://github.com/victormeloasm/HippoFrog) | [HippoFrog/](./HippoFrog) |
-| [FrogKillCMOS](https://github.com/victormeloasm/FrogKillCMOS) | [FrogKillCMOS/](./FrogKillCMOS) |
 | [defrogwipe](https://github.com/victormeloasm/defrogwipe) | [defrogwipe/](./defrogwipe) |
 | [FrogBard](https://github.com/victormeloasm/FrogBard) | [FrogBard/](./FrogBard) |
 | [kyfrog](https://github.com/victormeloasm/kyfrog) | [kyfrog/](./kyfrog) |
@@ -34,22 +33,19 @@ All links below are Git submodules. Original repositories remain independent and
 
 ## Toad-named repositories (1)
 
-| Original repository | In FLinuxTools |
-|---|---|
+| Repository | Submodule |
+| --- | --- |
 | [randomtoad](https://github.com/victormeloasm/randomtoad) | [randomtoad/](./randomtoad) |
 
-## Other utilities and research projects (17)
+## Additional projects (14)
 
-These were selected by the original automatic Linux-tool scanner. Some are tools or educational/research projects rather than Linux utilities, so this section is not a guarantee of compatibility.
+Some entries are research, programming exercises, or cross-platform applications rather than Linux-specific utilities.
 
-| Original repository | In FLinuxTools |
-|---|---|
+| Repository | Submodule |
+| --- | --- |
 | [nntp](https://github.com/victormeloasm/nntp) | [nntp/](./nntp) |
 | [whotf](https://github.com/victormeloasm/whotf) | [whotf/](./whotf) |
 | [eXpurg](https://github.com/victormeloasm/eXpurg) | [eXpurg/](./eXpurg) |
-| [VLC0dayanalyis](https://github.com/victormeloasm/VLC0dayanalyis) | [VLC0dayanalyis/](./VLC0dayanalyis) |
-| [AESCrypt](https://github.com/victormeloasm/AESCrypt) | [AESCrypt/](./AESCrypt) |
-| [eXtremeEntropyRandomGenerator](https://github.com/victormeloasm/eXtremeEntropyRandomGenerator) | [eXtremeEntropyRandomGenerator/](./eXtremeEntropyRandomGenerator) |
 | [SynthIDKiller](https://github.com/victormeloasm/SynthIDKiller) | [SynthIDKiller/](./SynthIDKiller) |
 | [caesar](https://github.com/victormeloasm/caesar) | [caesar/](./caesar) |
 | [DartMonteCarlo](https://github.com/victormeloasm/DartMonteCarlo) | [DartMonteCarlo/](./DartMonteCarlo) |
@@ -62,10 +58,15 @@ These were selected by the original automatic Linux-tool scanner. Some are tools
 | [CircularPrimes-1.2](https://github.com/victormeloasm/CircularPrimes-1.2) | [CircularPrimes-1.2/](./CircularPrimes-1.2) |
 | [pwnsplay](https://github.com/victormeloasm/pwnsplay) | [pwnsplay/](./pwnsplay) |
 
-## Clone the collection
+## Explicitly excluded
+
+- `FrogKillCMOS`
+- `VLC0dayanalyis`
+- `AESCrypt`
+- `eXtremeEntropyRandomGenerator`
+
+## Clone
 
 ```bash
 git clone --recurse-submodules https://github.com/victormeloasm/FLinuxTools.git
 ```
-
-To clone only an individual tool, use its original repository URL.

@@ -37,18 +37,6 @@
 [submodule "eXpurg"]
 	path = eXpurg
 	url = https://github.com/victormeloasm/eXpurg.git
-[submodule "FrogKillCMOS"]
-	path = FrogKillCMOS
-	url = https://github.com/victormeloasm/FrogKillCMOS.git
-[submodule "VLC0dayanalyis"]
-	path = VLC0dayanalyis
-	url = https://github.com/victormeloasm/VLC0dayanalyis.git
-[submodule "AESCrypt"]
-	path = AESCrypt
-	url = https://github.com/victormeloasm/AESCrypt.git
-[submodule "eXtremeEntropyRandomGenerator"]
-	path = eXtremeEntropyRandomGenerator
-	url = https://github.com/victormeloasm/eXtremeEntropyRandomGenerator.git
 [submodule "defrogwipe"]
 	path = defrogwipe
 	url = https://github.com/victormeloasm/defrogwipe.git
