@@ -58,45 +58,12 @@
 [submodule "FrogECCHunter"]
 	path = FrogECCHunter
 	url = https://github.com/victormeloasm/FrogECCHunter.git
-[submodule "SynthIDKiller"]
-	path = SynthIDKiller
-	url = https://github.com/victormeloasm/SynthIDKiller.git
-[submodule "caesar"]
-	path = caesar
-	url = https://github.com/victormeloasm/caesar.git
-[submodule "DartMonteCarlo"]
-	path = DartMonteCarlo
-	url = https://github.com/victormeloasm/DartMonteCarlo.git
-[submodule "PySpeedTest"]
-	path = PySpeedTest
-	url = https://github.com/victormeloasm/PySpeedTest.git
 [submodule "symfrog512"]
 	path = symfrog512
 	url = https://github.com/victormeloasm/symfrog512.git
 [submodule "frogglass"]
 	path = frogglass
 	url = https://github.com/victormeloasm/frogglass.git
-[submodule "CubeSumFinder"]
-	path = CubeSumFinder
-	url = https://github.com/victormeloasm/CubeSumFinder.git
-[submodule "bend-hashes"]
-	path = bend-hashes
-	url = https://github.com/victormeloasm/bend-hashes.git
-[submodule "RomansToDecimal"]
-	path = RomansToDecimal
-	url = https://github.com/victormeloasm/RomansToDecimal.git
-[submodule "threefish512"]
-	path = threefish512
-	url = https://github.com/victormeloasm/threefish512.git
-[submodule "2Dwaveequation"]
-	path = 2Dwaveequation
-	url = https://github.com/victormeloasm/2Dwaveequation.git
-[submodule "CircularPrimes-1.2"]
-	path = CircularPrimes-1.2
-	url = https://github.com/victormeloasm/CircularPrimes-1.2.git
-[submodule "pwnsplay"]
-	path = pwnsplay
-	url = https://github.com/victormeloasm/pwnsplay.git
 [submodule "froglock"]
 	path = froglock
 	url = https://github.com/victormeloasm/froglock.git

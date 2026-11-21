@@ -1,10 +1,8 @@
 # FLinuxTools 🐸
 
-A collection of independent tools and projects created or maintained by [victormeloasm](https://github.com/victormeloasm).
+A curated collection of independent tools and projects created by [victormeloasm](https://github.com/victormeloasm).
 
-**37 Git submodules**: 22 Frog-named projects, 1 Toad-named project, and 14 other projects.
-
-All Frog-named repositories are included **except FrogKillCMOS**, which was explicitly excluded by the owner. The projects `VLC0dayanalyis`, `AESCrypt`, and `eXtremeEntropyRandomGenerator` were also explicitly excluded. Their original repositories are untouched. Additional projects whose names abbreviate Frog as just `F` can be added individually after identification.
+**26 Git submodules:** 22 projects with `frog` in their names, 1 Toad project, and 3 other tools. **TorFrog is retained**. Some repositories are intentionally excluded by the owner, regardless of naming.
 
 ## 🐸 Frog projects (22)
 
@@ -31,24 +29,22 @@ All Frog-named repositories are included **except FrogKillCMOS**, which was expl
 - [frogpaste](./frogpaste)
 - [HyperFrog](./HyperFrog)
 
-## 🐸 Toad projects (1)
+## 🐸 Toad project (1)
 
 - [randomtoad](./randomtoad)
 
-## Other projects (14)
+## Other projects (3)
 
-See [TOOLS.md](TOOLS.md) for the complete index.
+- [nntp](./nntp)
+- [whotf](./whotf)
+- [eXpurg](./eXpurg)
 
-## Clone the complete collection
+The complete [TOOLS.md](TOOLS.md) index includes links to original repositories. Git submodules are references to pinned commits, not copies. Original projects, histories, issues, releases, and licenses remain unchanged.
+
+## Clone all
 
 ```bash
 git clone --recurse-submodules https://github.com/victormeloasm/FLinuxTools.git
 ```
 
-Or initialize submodules in an existing clone:
-
-```bash
-git submodule update --init --recursive
-```
-
-Each submodule points to a specific commit of its own repository. The source repositories, their histories, issues, releases and licenses remain independent.
+For an existing clone, use `git pull && git submodule sync --recursive && git submodule update --init --recursive`.

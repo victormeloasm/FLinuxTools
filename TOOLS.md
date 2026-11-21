@@ -1,12 +1,10 @@
-# FLinuxTools — Project catalog
+# FLinuxTools — Project Catalog
 
-This collection currently contains **37 Git submodules**, grouped by name, with 4 owner-requested exclusions from the previous catalog. The original repositories have not been deleted or moved.
+This collection has **26 independent Git submodules**. TorFrog remains included at the owner's request. Some repositories have been explicitly excluded, even if their names contain Frog.
 
 ## Frog-named repositories (22)
 
-FrogKillCMOS is intentionally excluded at the owner's request.
-
-| Repository | Submodule |
+| Original repository | Submodule |
 | --- | --- |
 | [TorFrog](https://github.com/victormeloasm/TorFrog) | [TorFrog/](./TorFrog) |
 | [frogurl](https://github.com/victormeloasm/frogurl) | [frogurl/](./frogurl) |
@@ -33,37 +31,35 @@ FrogKillCMOS is intentionally excluded at the owner's request.
 
 ## Toad-named repositories (1)
 
-| Repository | Submodule |
+| Original repository | Submodule |
 | --- | --- |
 | [randomtoad](https://github.com/victormeloasm/randomtoad) | [randomtoad/](./randomtoad) |
 
-## Additional projects (14)
+## Other repositories (3)
 
-Some entries are research, programming exercises, or cross-platform applications rather than Linux-specific utilities.
-
-| Repository | Submodule |
+| Original repository | Submodule |
 | --- | --- |
 | [nntp](https://github.com/victormeloasm/nntp) | [nntp/](./nntp) |
 | [whotf](https://github.com/victormeloasm/whotf) | [whotf/](./whotf) |
 | [eXpurg](https://github.com/victormeloasm/eXpurg) | [eXpurg/](./eXpurg) |
-| [SynthIDKiller](https://github.com/victormeloasm/SynthIDKiller) | [SynthIDKiller/](./SynthIDKiller) |
-| [caesar](https://github.com/victormeloasm/caesar) | [caesar/](./caesar) |
-| [DartMonteCarlo](https://github.com/victormeloasm/DartMonteCarlo) | [DartMonteCarlo/](./DartMonteCarlo) |
-| [PySpeedTest](https://github.com/victormeloasm/PySpeedTest) | [PySpeedTest/](./PySpeedTest) |
-| [CubeSumFinder](https://github.com/victormeloasm/CubeSumFinder) | [CubeSumFinder/](./CubeSumFinder) |
-| [bend-hashes](https://github.com/victormeloasm/bend-hashes) | [bend-hashes/](./bend-hashes) |
-| [RomansToDecimal](https://github.com/victormeloasm/RomansToDecimal) | [RomansToDecimal/](./RomansToDecimal) |
-| [threefish512](https://github.com/victormeloasm/threefish512) | [threefish512/](./threefish512) |
-| [2Dwaveequation](https://github.com/victormeloasm/2Dwaveequation) | [2Dwaveequation/](./2Dwaveequation) |
-| [CircularPrimes-1.2](https://github.com/victormeloasm/CircularPrimes-1.2) | [CircularPrimes-1.2/](./CircularPrimes-1.2) |
-| [pwnsplay](https://github.com/victormeloasm/pwnsplay) | [pwnsplay/](./pwnsplay) |
 
-## Explicitly excluded
+## Excluded by request
 
 - `FrogKillCMOS`
-- `VLC0dayanalyis`
+- `2Dwaveequation`
 - `AESCrypt`
+- `CircularPrimes-1.2`
+- `CubeSumFinder`
+- `DartMonteCarlo`
+- `PySpeedTest`
+- `RomansToDecimal`
+- `SynthIDKiller`
+- `VLC0dayanalyis`
+- `bend-hashes`
+- `caesar`
 - `eXtremeEntropyRandomGenerator`
+- `pwnsplay`
+- `threefish512`
 
 ## Clone
 
